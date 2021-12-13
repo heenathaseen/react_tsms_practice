@@ -1,0 +1,120 @@
+
+
+*{
+  background-color: #F2F2F2;
+}
+.container{
+  display: block;
+}
+
+select{
+  border: 0;
+  width: 206px;
+  background-color: white;
+  color: gray;
+
+}
+.add-emp{
+  color:  #0A1C63;
+  font-size : 30px; 
+  font-weight: 500;
+}
+input{
+  margin-right: 0%;
+  border: 0;
+  background-color: white;
+  color: gray;
+  
+} 
+input:hover{
+  border: 0;
+  background-color: white;
+  color: gray;
+  
+} 
+input[type=text]:focus {
+  border: 0;
+  background-color:white;
+}
+input::after{
+  border: 0;
+  background-color:white;
+
+}
+
+
+
+::placeholder {
+ font-size: 20px;
+}
+  
+.container{
+  margin: auto;
+}
+
+.form-control:hover{
+  border: none;
+
+}
+.form-control:focus{
+  border: none;
+
+}
+
+.cancel-button{
+  background: linear-gradient(to right,#7DFBF8 ,#4284C9);
+  border: none;
+  width: 130px;
+  height:36px ;
+  border-radius: 12px;
+  color: white;
+}
+.submit-button{
+ 
+  background: linear-gradient(to right,#E62E6C, #EB8227);
+  border: none;
+  width: 130px;
+  height:36px ;
+  border-radius: 12px;
+  color: white;
+}
+
+.col-sm-4{
+  padding-top: 20px;
+}
+.small-screen{
+  padding-top: -400px;
+}
+.large-screen{
+  padding-bottom: 10px;
+}
+
+.custom-button{
+ text-align: end;
+}
+/* @media only screen and (min-width: 768px) 
+     {  
+      select{
+        border: 0;
+        width: 206px;
+        background-color: white;
+        color: gray;
+      
+      }
+     }  */
+
+@media only screen and (min-width: 320px) and (max-width: 650px) 
+     {  
+         .custom-button{
+            text-align: center;
+         }
+     } 
+ 
+    
+
+
+
+
+
+
+
